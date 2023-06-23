@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .container {
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .row {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .col-2 {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .col-8 {
+    flex: 8;
+    padding: 10px;
+  }
+  
+  .saveBtn {
+    flex: 1;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .description {
+    height: 80px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    resize: none;
+  }
+  
+  .past {
+    background-color: #d3d3d3;
+  }
+  
+  .present {
+    background-color: #ff6961;
+  }
+  
+  .future {
+    background-color: #77dd77;
+  }
+  /* Add this CSS to the existing styles.css */
+
+header.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
